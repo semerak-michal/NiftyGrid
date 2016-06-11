@@ -1,6 +1,5 @@
 {
-	"name": "nifty/nifty-grid",
-	"type": "nette-addon",
+	"name": "semerak-michal/nifty-grid",
 	"description": "Simple & lightweight datagrid for nette",
 	"keywords": ["datagrid", "nette"],
 	"homepage": "http://addons.nette.org/cs/niftygrid",
@@ -12,8 +11,7 @@
 	],
 	"require": {
 		"php" : ">=5.3.2",
-		"nette/nette" : "*",
-		"nette/addon-installer": "@dev"
+		"nette/nette" : "*"
 	},
 	"autoload": {
 		"psr-0": { "NiftyGrid": "libs/" },
